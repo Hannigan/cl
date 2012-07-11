@@ -1,0 +1,3 @@
+// adds javascript console to terminal bin
+
+    sudo ln /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc /usr/bin/jsc
