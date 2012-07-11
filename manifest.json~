@@ -1,0 +1,12 @@
+{
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "description": "Browse the internet faster with command line navigation`.",
+  "name": "Command Line",
+  "permissions": ["tabs", "http://www.google.com/"],
+  "omnibox": { "keyword" : "do" },
+  "version": "1",
+  "minimum_chrome_version": "9",
+  "manifest_version": 1 
+}
