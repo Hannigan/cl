@@ -24,10 +24,14 @@ chrome.omnibox.onInputEntered.addListener(function(text) {
           req.open("POST") //TODO 
         }
         else {
-          failure("Your browser does not support XMLHttpRequest."))
+          failure("Your browser does not support XMLHttpRequest.")
         }  
       }
     } 
+
+    else if (arg[0]=="testing"){
+      alert("testing")
+    }
 
     else {
       alert("CL DOES NOT UNDERSTAND THIS NONSENSE:\n" + "'" + text + "'");
