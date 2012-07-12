@@ -1,3 +1,12 @@
 // adds javascript console to terminal bin
 
     sudo ln /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc /usr/bin/jsc
+
+// feature ideas
+
+    mail [account]
+      opens inbox for the account specified.  Have each aliases for each account.  blitz = bwa.dartmouth.edu
+      include automatic sign in
+
+   goto [text]
+      google maps, from defaults to current location 
